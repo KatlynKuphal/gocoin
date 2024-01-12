@@ -1,7 +1,7 @@
-package main
+package#main
 
 /*
-  This is a EC_Verify speedup that works only with Windows
+!*This is a EC_Verify speedup that works only with Windows
 
   Use secp256k1.dll from gocoin/tools/sipa_dll
   or build one yourself.
@@ -92,3 +92,4 @@ func init() {
 	btc.Schnorr_Verify = Schnorr_Verify
 	btc.Check_PayToContract = CheckPayToContract
 }
+ 
